@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Noon-Ecommerce-clone/static/css/main.e8522042.chunk.css",
+    "main.js": "/Noon-Ecommerce-clone/static/js/main.3299aade.chunk.js",
+    "main.js.map": "/Noon-Ecommerce-clone/static/js/main.3299aade.chunk.js.map",
+    "runtime-main.js": "/Noon-Ecommerce-clone/static/js/runtime-main.d3919d15.js",
+    "runtime-main.js.map": "/Noon-Ecommerce-clone/static/js/runtime-main.d3919d15.js.map",
+    "static/css/2.c155efc8.chunk.css": "/Noon-Ecommerce-clone/static/css/2.c155efc8.chunk.css",
+    "static/js/2.9dee7248.chunk.js": "/Noon-Ecommerce-clone/static/js/2.9dee7248.chunk.js",
+    "static/js/2.9dee7248.chunk.js.map": "/Noon-Ecommerce-clone/static/js/2.9dee7248.chunk.js.map",
+    "static/js/3.b5c808a5.chunk.js": "/Noon-Ecommerce-clone/static/js/3.b5c808a5.chunk.js",
+    "static/js/3.b5c808a5.chunk.js.map": "/Noon-Ecommerce-clone/static/js/3.b5c808a5.chunk.js.map",
+    "index.html": "/Noon-Ecommerce-clone/index.html",
+    "static/css/2.c155efc8.chunk.css.map": "/Noon-Ecommerce-clone/static/css/2.c155efc8.chunk.css.map",
+    "static/css/main.e8522042.chunk.css.map": "/Noon-Ecommerce-clone/static/css/main.e8522042.chunk.css.map",
+    "static/js/2.9dee7248.chunk.js.LICENSE.txt": "/Noon-Ecommerce-clone/static/js/2.9dee7248.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3919d15.js",
+    "static/css/2.c155efc8.chunk.css",
+    "static/js/2.9dee7248.chunk.js",
+    "static/css/main.e8522042.chunk.css",
+    "static/js/main.3299aade.chunk.js"
+  ]
+}
