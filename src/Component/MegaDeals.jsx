@@ -49,7 +49,7 @@ function MegaDeals() {
                 img={
                   "https://images.unsplash.com/photo-1548192386-c9bb4224f0a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjB3YXRjaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 }
-                text={"Apple watch ss-e mm pro ultra"}
+                text={"Apple watch ss-e mm pro "}
                 price={"1,149 AED"}
               />
             </Col>

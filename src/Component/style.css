@@ -1,184 +1,203 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans+Condensed:wght@300&display=swap");
 
-*{
-    font-family: 'Merriweather', serif;
+* {
+  font-family: "Merriweather", serif;
 }
 
 /* =====================CIRCLE CARD STYLING================ */
-.mainCircle{
-    width: auto;
+.mainCircle {
+  width: auto;
 }
-.mainCircle img{
-    border-radius: 60%;
-    height: 15vh;
-    width: auto;
+.mainCircle img {
+  border-radius: 60%;
+  height: 15vh;
+  width: auto;
 }
-.textCircle{
-    font-size: 16px;
-    font-weight: bold;
+.textCircle {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* =============CArd div styling========== */
 .scrolls {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    height: 470px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 470px;
 }
 .imageDiv .mymaincardggroup {
-    box-shadow: 1px 1px 10px #999;
-    margin: 2px;
-    cursor: pointer;
-    *zoom:1;/* For IE7*/
-    vertical-align:top;
- }
- .myCardDiv{
-     font-family: serif;
-     max-width: 250px;
- }
- .myCardDiv .textSize{
-     font-size: 28px;
-     color: rgb(0, 0, 0);
- }
- .niveapageimg img{
-     height: auto;
- }
- .textExpress{
-     font-size: 12px;
-     padding: 2px;
-     background-color: rgba(205, 245, 28, 0.678);
- }
- .recommended{
-     font-size: 30px;
-     margin-left: 20px;
- }
+  box-shadow: 1px 1px 10px #999;
+  margin: 2px;
+  cursor: pointer;
+  *zoom: 1; /* For IE7*/
+  vertical-align: top;
+}
+.myCardDiv {
+  font-family: serif;
+  max-width: 250px;
+}
+.myCardDiv .textSize {
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+}
+.niveapageimg img {
+  height: auto;
+}
+.textExpress {
+  font-size: 12px;
+  padding: 2px;
+  background-color: rgba(205, 245, 28, 0.678);
+}
+.recommended {
+  font-size: 30px;
+  margin-left: 20px;
+}
 
- /* MEGA DIV CARDS */
- .main_mega_div{
-     background-color: rgb(255, 254, 219);
- }
- .hours{
-     padding-top: 10px;
-     font-size: 20px;
-     margin-left: 25px;
- }
- .deals{
-     padding: 10px;
-     width: 40%;
-     display: flex;
-     flex-wrap: wrap;
- }
- .main-mega-cards img{
+/* MEGA DIV CARDS */
+.main_mega_div {
+  background-color: rgb(255, 254, 219);
+}
+.hours {
+  padding-top: 10px;
+  font-size: 20px;
+  margin-left: 25px;
+}
+.deals {
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-mega-cards img {
+    width: 100%;
     height: 200px;
 }
-.cardTitle{
-    background-color: rgb(255, 217, 5);
+.cardTitle {
+  background-color: rgb(255, 217, 5);
 }
 
 /* Footer styling */
-.rightDiv{
-    width: 30%;
+.rightDiv {
+  width: 30%;
 }
-.bottomDiv{
-    max-height: 100px;
-    background-color: #f7f7fa;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    border-bottom: 1px solid rgb(209, 206, 206);
-    border-top: 1px solid rgb(209, 206, 206);
+.bottomDiv {
+  max-height: 100px;
+  background-color: #f7f7fa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid rgb(209, 206, 206);
+  border-top: 1px solid rgb(209, 206, 206);
 }
-.leftDiv{
-    padding-bottom: 15px;
+.leftDiv {
+  padding-bottom: 15px;
 }
-.leftDiv span{
-    font-size: 20px;
-    font-weight: bolder;
+.leftDiv span {
+  font-size: 20px;
+  font-weight: bolder;
 }
-.helpsection{
-    border-bottom: none;
-}
-.fa-envelope ,.fa-info-circle{
-    position: absolute;
-    left: -24px;
-    top: 10px;
-    font-size: 25px;
-}
-.mainFooter{
-    height: 10vh;
+.helpsection {
+  border-bottom: none;
 }
 
+.fa-envelope,
+.fa-info-circle {
+  position: relative;
+  left: -25px;
+  top: 10px;
+  font-size: 25px;
+}
+.mainFooter {
+  height: 10vh;
+}
+.myMainFooter {
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.heading{
+    font-size: 25px;
+}
+.spanText{
+    position: relative;
+    bottom: 24px;
+    left: 15px;
+}
 @media screen and (max-width: 480px) {
-    .myad img{
-        width: 100%;
-        height: 40px;
-    }
-    .slide-container img{
-        height: 150px;
-    }
-    .mainCircle img{
-        border-radius: 50%;
-        height: 11vh;
-        width: 12vh;
-    }
-    .textCircle{
-        font-size: 12px;
-    }
-    .myCardDiv{
-        max-width: 170px;
-        display: inline-block;
-    }
-    .arrivetext{
-        font-size: 12px;
-    }
-    .niveapageimg img{
-        height: 130px;
-    }
-    .recommended{
-        font-size: 15px;
-        margin-left: 10px;
-    }
-    .cardText{
-        padding-top: 10px;
-        font-size: 1.5vh;
-    }
-    .deals h1{
-        font-size: 19px
-    }
-    .deals{
-        padding: 10px;
-        width: 100%;
-    }
-    .hours{
-        padding-top: 0px;
-        font-size: 15px;
-        margin-left: 20px;
-    }
-    .cardTitle{
-        font-size: 11px;
-        background-color: rgb(255, 217, 5);
-    }
-    .main-mega-cards img{
-        width: 100px;
-        height: 80px;
-    }
-    .bottomDiv{
-        max-height: fit-content;
-        justify-content: center;
-        padding: 20px;
-    }
-    .helpsection{
-        padding-bottom: 10px;
-        border-bottom: 1px solid rgb(189, 183, 183);
-    }
-    .emailsection{
-        padding-top: 10px;
-        
-    }
-    .fa-envelope ,.fa-info-circle{
-        position: absolute;
-        top: 15px;
-        font-size: 25px;
-    }
-    
+  .myad img {
+    width: 100%;
+    height: 40px;
   }
+  .slide-container img {
+    height: 150px;
+  }
+  .mainCircle img {
+    border-radius: 50%;
+    height: 11vh;
+    width: 12vh;
+  }
+  .textCircle {
+    font-size: 12px;
+  }
+  .myCardDiv {
+    max-width: 170px;
+    display: inline-block;
+  }
+  .arrivetext {
+    font-size: 12px;
+  }
+  .niveapageimg img {
+    height: 130px;
+  }
+  .recommended {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .cardText {
+    padding-top: 10px;
+    font-size: 1.5vh;
+  }
+  .deals h1 {
+    font-size: 19px;
+  }
+  .deals {
+    padding: 10px;
+    width: 100%;
+  }
+  .hours {
+    padding-top: 0px;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .cardTitle {
+    font-size: 11px;
+    background-color: rgb(255, 217, 5);
+  }
+  .main-mega-cards img {
+    width: 100%;
+    height: 80px;
+  }
+  .bottomDiv {
+    max-height: fit-content;
+    justify-content: center;
+    padding: 20px;
+  }
+  .helpsection {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(189, 183, 183);
+  }
+  .emailsection {
+    padding-top: 10px;
+  }
+  .fa-envelope,
+  .fa-info-circle {
+    top: 15px;
+    font-size: 25px;
+  }
+  .footerText{
+      font-size: 10px;
+  }
+  .rightDiv{
+      width: 100px;
+  }
+}

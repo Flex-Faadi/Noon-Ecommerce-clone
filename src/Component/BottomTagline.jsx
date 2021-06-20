@@ -11,13 +11,17 @@ function BottomTagline() {
             <Row>
               <Col md={6} className="helpsection">
                 <i className="fa fa-info-circle" aria-hidden="true"></i>
+                <div className="spanText">
                 <span>Help Center</span> <br />
                 <span>Help.Noon.com</span>
+                </div>
               </Col>
               <Col md={6} className="emailsection">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i className="fa fa-envelope" aria-hidden="true"></i>
+              <div className="spanText">
                 <span>Email Support</span> <br />
                 <span>abc@gmail.com</span>
+              </div>
               </Col>
             </Row>
           </div>
